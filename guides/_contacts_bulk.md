@@ -744,7 +744,7 @@ $body = [
         ]
     ]
 ];
-$response = $mj->post(Resources::$ContactslistManageManyContacts, ['id' => $id, 'body' => $body]);
+$response = $mj->post(Resources::$ContactslistManagemanycontacts, ['id' => $id, 'body' => $body]);
 $response->success() && var_dump($response->getData());
 ?>
 ```
